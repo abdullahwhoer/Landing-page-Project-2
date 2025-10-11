@@ -28,9 +28,8 @@ a::after {
   width: 0%;
   height: 2px;
   /* background: rgb(68, 13, 13); */
-  background: #0073FF;
-  background: linear-gradient(83deg,rgba(0, 115, 255, 1) 0%, rgba(143, 101, 235, 1) 83%);
-  transition: width 0.3s ease;
+  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  transition: all 0.5s linear;
 }
 
 a:hover::after {
@@ -108,7 +107,32 @@ li a {
 
 .hero-btn button {
     border: none;
-    padding: 16px 55px;
+    padding: 16px 40px;
     border-radius: 50px;
     margin-top: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+    transition: all 0.5s linear;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+/* Feature Section */
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    background-color: #F6F6F6;
+}
+
+.features-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    align-items: center;
 }
