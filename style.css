@@ -137,7 +137,7 @@ li a {
     align-items: center;
     gap: 35px;
     width: 70vw;
-    flex-wrap: wrap;
+    
 }
 
 .feature-title h2 {
@@ -198,4 +198,14 @@ li a {
     color: #333333;
     
 }
+.pic {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.pic span {
+    color: white;
+    font-size: 40px;
+}
