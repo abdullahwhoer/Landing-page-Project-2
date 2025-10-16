@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
  *{
     margin: 0;
     padding: 0;
@@ -549,5 +549,89 @@ li a {
 .gallery-item span:hover {
     opacity: 1;
     /* z-index: 999; */
+}
+
+/* TODO CLients Section */
+
+.clients {
+  padding: 100px 20px;
+  background-color: #F6F6F6;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  /* gap: 70px; */
+}
+
+.clients-container h2 {
+  font-size: 30px;
+  font-weight: 800;
+  color: #333333;
+  letter-spacing: 1px;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.clients-container h2::after {
+    content: "";
+    position: absolute;
+    left: 47%;
+    background-image: linear-gradient(to right, rgb(99, 114, 255) 0%, rgb(92, 169, 251)  100%);
+    height: 4px;
+    bottom: -13px;
+    width: 5%;
+}
+
+/* .underline {
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, #0073e6, #00aaff);
+  margin: 10px auto 50px;
+  border-radius: 2px;
+} */
+
+.clients-review {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px 80px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.review {
+  width: 300px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  text-align: left;
+}
+
+.client-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.client-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimonial-client p {
+  font-style: italic;
+  font-size: 12.5px;
+  line-height: 1.4;
+  color: #777777;
+  margin-bottom: 10px;
+}
+
+.testimonial-client h4 {
+  font-size: 14px;
+  color: #777777;
+  font-weight: 700;
 }
 
