@@ -16,19 +16,19 @@
         <nav class="navbar">
             <h2>Abdullah Saqib</h2>
             <ul>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#feature">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#clients">Testimonials</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <!-- Hero Section -->
     <main>
-        <section class="hero">
+        <section class="hero" >
             <div class="hero-content">
                 <h1>We are a Landing Page</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed
@@ -40,7 +40,7 @@
         </section>
 
         <!-- Feature Section -->
-        <section class="feature">
+        <section class="feature" id="feature">
             <div class="feature-title">
                 <h2>Features</h2>
             </div>
@@ -77,7 +77,7 @@
         </section>
 
         <!-- About Us section -->
-        <section class="about-us">
+        <section class="about-us" id="about">
             <div class="main-about">
                 <div class="about-left">
                     <img src="./media/about.jpg" alt="about-us">
@@ -115,7 +115,7 @@
         </section>
 
         <!-- TODO Services Section  -->
-        <section class="services">
+        <section class="services" id="services">
             <div class="services-container">
                 <div class="services-content">
                     <h2>Our Services</h2>
@@ -169,7 +169,7 @@
         </section>
 
         <!-- ^ Gallery Section -->
-        <section class="gallery">
+        <section class="gallery" id="gallery">
             <div class="gallery-container">
                 <div class="gallery-content">
                     <h2>Gallery</h2>
@@ -248,7 +248,7 @@
         </section> -->
 
 
-        <section class="clients">
+        <section class="clients" id="clients">
             <div class="clients-container">
                 <h2>WHAT OUR CLIENTS SAY</h2>
 
@@ -343,7 +343,7 @@
 
         <!-- TODO About Team Section -->
 
-        <section class="about-team">
+        <section class="about-team" id="team">
             <div class="team-container">
                 <div class="team-content">
                     <h2>Meet the Team</h2>
@@ -386,52 +386,76 @@
             </div>
         </section> 
 
-        <!-- ? Contact Us Section -->
-
-        <section class="contact">
-            <div class="contact-container">
-                <div class="contact-left">
-                    <div class="cont-container">
-                        <h2>Get In Touch</h2>
-                        <p>Please fill out the form below to send us an email and we will get back to you as soon as possible.</p>
-                    </div>
-
-                    <form action="" class="contact">
-                        <input type="text">
-                        <input type="email" name="" id="">
-                        <textarea name="" id=""></textarea>
-                        <button class="contact">Send Message</button>
-                    </form>
-                </div>
-
-                <div class="right">
-                    <h3>Contact Info</h3>
-
-                    <div class="adress">
-                    <h4>Address</h4>
-                    <address>4321 California St, San Francisco, CA 12345</address>
-                    </div>
-
-                    <div class="phone">
-                        <h4>Phone</h4>
-                        <p>+1 123 456 1234</p>
-                    </div>
-
-                    <div class="email">
-                        <h4>Email</h4>
-                        <p>info@company.com</p>
-                    </div>
-                </div>
-
-                <div class="bottom">
-                    <div class="social-1"><a href=""></a></div>
-                    <div class="social-2"><a href=""></a></div>
-                    <div class="social-3"><a href=""></a></div>
-                </div>
-            </div>
-        </section>
-
     </main>
+
+    <!-- ? Contact Us Section -->
+<footer>
+  <section class="contact-section" id="contact">
+    <div class="contact-container">
+
+      <!-- Left: Contact Form -->
+      <div class="contact-left">
+        <h2>GET IN TOUCH</h2>
+        <div class="line"></div>
+        <p>Please fill out the form below to send us an email and we will get back to you as soon as possible.</p>
+
+        <form class="contact-form">
+          <div class="form-row">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+          </div>
+          <textarea placeholder="Message" rows="5" required></textarea>
+          <button type="submit">SEND MESSAGE</button>
+        </form>
+      </div>
+
+      <!-- Right: Contact Info -->
+      <div class="contact-right">
+        <h3>Contact Info</h3>
+        <div class="info-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <div>
+            <h4>Address</h4>
+            <p>4321 California St, San Francisco, CA 12345</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <i class="fa-solid fa-phone"></i>
+          <div>
+            <h4>Phone</h4>
+            <p>+1 123 456 1234</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <i class="fa-solid fa-envelope"></i>
+          <div>
+            <h4>Email</h4>
+            <p>info@company.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer bottom line and social icons -->
+    <div class="footer-bottom">
+      <hr class="footer-line">
+      <div class="footer-social-icons">
+        <div class="s-icon"><i class="fa-brands fa-facebook-f"></i></div>
+        <div class="s-icon"><i class="fa-brands fa-twitter"></i></div>
+        <div class="s-icon"><i class="fa-brands fa-youtube"></i></div>
+      </div>
+    </div>
+
+    
+  </section>
+  <div class="copyright">
+        <p>&copy; 2025 Issaaf Kattan React Land Page Template. Design by</p> 
+        <a href="#"> Abdullah Saqib</a>
+    </div>
+</footer>
+
+
+
 </body>
 
 </html>
